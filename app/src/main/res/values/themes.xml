@@ -1,14 +1,13 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
-    <!-- Base application theme. -->
+
     <style name="Base.Theme.EcommerceApp" parent="Theme.Material3.Light.NoActionBar">
         <item name="android:colorAccent">@color/primary</item>
         <item name="android:colorPrimaryDark">@color/primary</item>
 
-        <!-- System UI Configurations-->
         <item name="android:statusBarColor">@color/white</item>
-        <item name="android:windowLightStatusBar">true</item> <!-- For making status bar content color dark -->
+        <item name="android:windowLightStatusBar">true</item>
         <item name="android:navigationBarColor">@android:color/white</item>
-        <item name="android:windowLightNavigationBar" tools:targetApi="o_mr1">true</item>  <!-- For making Navigation bar content color dark -->
+        <item name="android:windowLightNavigationBar" tools:targetApi="o_mr1">true</item>
 
 
     </style>
@@ -18,7 +17,6 @@
     <style name="Theme.EcommerceApp.Starting" parent="Theme.EcommerceApp">
         <item name="android:windowBackground">@drawable/logo</item>
 
-        <!-- System UI Configurations-->
         <item name="android:statusBarColor">@color/primary</item>
         <item name="android:windowLightStatusBar">false</item>
         <item name="android:navigationBarColor">@color/primary</item>
