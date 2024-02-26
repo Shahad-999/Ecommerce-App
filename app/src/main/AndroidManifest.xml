@@ -11,9 +11,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.EcommerceApp"
-        tools:targetApi="31">
+        tools:targetApi="s">
         <activity
             android:name=".MainActivity"
+            android:theme="@style/Theme.EcommerceApp.Starting"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
