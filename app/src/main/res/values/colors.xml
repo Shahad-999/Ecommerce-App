@@ -3,4 +3,18 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
     <color name="primary">#FF40BFFF</color>
+    <color name="background">#FFFFFF</color>
+    <color name="red">#FB7181</color>
+    <color name="yellow">#FFC833</color>
+    <color name="green">#53D1B6</color>
+    <color name="purple">#5C61F4</color>
+    <color name="gray">#9098B1</color>
+
+
+    <color name="shade1">#223263</color>
+    <color name="shade2">#9098B1</color>
+    <color name="shade3">#EBF0FF</color>
+    
+
+
 </resources>

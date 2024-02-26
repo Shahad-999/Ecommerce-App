@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    //Don't Use any style start with UNDERSCORE (_)
+    
+    <style name="_MyText" parent="TextAppearance.AppCompat" />
+    //region heading
+    
+    <style name="_Heading"  parent="_MyText"  >
+        <item name="android:textStyle">bold</item>
+        <item name="android:spacing">0.5sp</item>
+        <item name="android:lineHeight" tools:targetApi="p">48sp</item>
+        <item name="lineHeight" >48sp</item>
+    </style>
+    
+    <style name="Heading_1" parent="_Heading">
+        <item name="android:textSize">32sp</item>
+    </style>
+    <style name="Heading_2" parent="_Heading">
+        <item name="android:textSize">24sp</item>
+    </style>
+    <style name="Heading_3" parent="_Heading">
+        <item name="android:textSize">20sp</item>
+    </style>
+    <style name="Heading_4" parent="_Heading">
+        <item name="android:textSize">16sp</item>
+    </style>
+    <style name="Heading_5" parent="_Heading">
+        <item name="android:textSize">14sp</item>
+    </style>
+    <style name="Heading_6" parent="_Heading">
+        <item name="android:textSize">10sp</item>
+    </style>
+
+    //endregion
+
+
+    //region body
+
+    <style name="_Body" parent="_MyText">
+        <item name="android:spacing">0.5sp</item>
+        <item name="android:lineHeight" tools:targetApi="p">28sp</item>
+        <item name="lineHeight" >28sp</item>
+    </style>
+
+    <style name="_Large_Body" parent="_Body">
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="Bold_Large_Body" parent="_Large_Body">
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="Regular_Large_Body" parent="_Large_Body">
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <style name="_Medium_Body" parent="_Body">
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="Bold_Medium_Body" parent="_Medium_Body">
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="Regular_Medium_Body" parent="_Medium_Body">
+        <item name="android:textStyle">normal</item>
+    </style>
+    <style name="_Normal_Body" parent="_Body">
+        <item name="android:textSize">12sp</item>
+
+    </style>
+
+    <style name="Bold_Normal_Body" parent="_Normal_Body">
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="Regular_Normal_Body" parent="_Normal_Body">
+        <item name="android:textStyle">normal</item>
+    </style>
+    //endregion
+
+
+
+    //region caption
+
+    <style name="_Caption" parent="_MyText">
+        <item name="android:spacing">0.5sp</item>
+        <item name="android:lineHeight" tools:targetApi="p">18sp</item>
+        <item name="lineHeight" >18sp</item>
+    </style>
+
+    <style name="_Large_Caption" parent="_Caption">
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <style name="Bold_Large_Caption" parent="_Large_Caption">
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="Regular_Large_Caption" parent="_Large_Caption">
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <style name="_Normal_Caption" parent="_Caption">
+        <item name="android:textSize">10sp</item>
+
+    </style>
+
+    <style name="Bold_Normal_Caption" parent="_Normal_Caption">
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="Regular_Normal_Caption" parent="_Normal_Caption">
+        <item name="android:textStyle">normal</item>
+    </style>
+    //endregion
+
+
+    <style name="Link" parent="_MyText">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:spacing">0.5sp</item>
+        <item name="android:lineHeight" tools:targetApi="p">18sp</item>
+        <item name="lineHeight" >18sp</item>
+        <item name="android:textColor">@color/primary</item>
+    </style>
+
+
+
+
+
+
+
+</resources>
