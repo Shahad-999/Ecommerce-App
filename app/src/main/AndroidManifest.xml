@@ -15,7 +15,7 @@
         android:usesCleartextTraffic="true"
         tools:targetApi="s">
         <activity
-            android:name=".MainActivity"
+            android:name=".presentation.main.MainActivity"
             android:theme="@style/Theme.EcommerceApp.Starting"
             android:exported="true">
             <intent-filter>

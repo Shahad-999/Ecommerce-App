@@ -1,8 +1,9 @@
-package com.shahad.ecommerce_app
+package com.shahad.ecommerce_app.presentation.main
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.core.splashscreen.SplashScreen.Companion.installSplashScreen
+import com.shahad.ecommerce_app.R
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
