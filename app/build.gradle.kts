@@ -1,6 +1,7 @@
 plugins {
     id("com.android.application")
     id("org.jetbrains.kotlin.android")
+    id("com.google.gms.google-services")
 }
 
 android {
@@ -8,7 +9,7 @@ android {
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "com.shahad.ecommerce_app"
+        applicationId = "com.training.ecommerce"
         minSdk = 24
         targetSdk = 34
         versionCode = 1
@@ -48,5 +49,10 @@ dependencies {
 
     //splash screen
     implementation ("androidx.core:core-splashscreen:1.0.1")
+
+    //firebase
+    implementation(platform("com.google.firebase:firebase-bom:32.7.3"))
+    implementation("com.google.firebase:firebase-analytics")
+
 
 }
